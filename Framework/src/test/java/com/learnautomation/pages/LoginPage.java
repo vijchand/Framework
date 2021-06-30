@@ -9,9 +9,11 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+	//this is new commit from Viji
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver = ldriver;
+		
 	}
 	
 	@FindBy(xpath="//span[text()='Log In']") WebElement login;
